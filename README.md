@@ -1,3 +1,8 @@
+# Happy Birthday!
+#### birthday-reminder is a practice app written in react to get hands on experience learning about conditional rendering and state hooks.
+<img src="https://user-images.githubusercontent.com/14968532/147367782-2b8fc42e-5f6b-4dc2-8105-ef870cb3450c.png" alt="drawing" width="500"/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
