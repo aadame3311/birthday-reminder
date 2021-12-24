@@ -1,0 +1,54 @@
+.list-item {
+    display: grid;
+    grid-template-columns: [first] 0.20fr [line2] 1fr [line3] 0.10fr;
+
+    color: var(--dark);
+    background-color: var(--primary);
+    margin-bottom: 8px;
+    min-width: 400px;
+    border-radius: 4px;
+    padding: 4px 16px;
+    justify-content: flex-start;
+}
+
+.list-item .thumbnail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-item .thumbnail .img {
+    background-color: var(--secondary);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.list-item .information {
+    width: 1fr;
+    display: flex;
+    color: black;
+    flex-direction: column;
+}
+.list-item .actions {
+    width: 1fr;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.list-item .actions:hover {
+    cursor: pointer;
+    filter: brightness(110%);
+}
+.list-item .information * {
+    margin-bottom: 4px;
+}
+.list-item .information .birthday {
+    font-size: 12px;
+}
+.list-item .information .age {
+    font-size: 12px;
+}
+.information .name {
+    font-weight: bold;
+}
